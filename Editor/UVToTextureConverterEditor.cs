@@ -98,7 +98,7 @@ public class UVToTextureConverterEditor : Editor
     private void UpdateAndDrawUV() => converter.DrawUV(converter.mesh, Scale, LineThickness, converter.TextureResolution, UvColor, BackgroundColor, SelectedUVChannel);
 
 
-    [MenuItem("GameObject/Tools/UVToTextureConverter", priority = 0)]
+    [MenuItem("Mesh+Bones/Not Useful/UV To Texture Converter inside a GameObject")]
     public static void CreateEmpty()
     {
         GameObject prefabsBakerGO = new GameObject("UVToTextureConverter");
